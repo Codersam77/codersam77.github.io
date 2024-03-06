@@ -1,0 +1,375 @@
+/*
+ * Copyright 2024 Samuel Sanchez. 
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0 / 35%);
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* input for about section */
+
+.about-col-2{
+  font-size: large;
+  flex-basis: 60%;
+}
+
+.sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+
+}
+
+.tab-links{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  background-color: #262626;
+  border-radius: 10px; /* Rounded border */
+}
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(34, 211, 238);;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+  width: 75%;
+}
+
+.tab-contents ul li{
+  list-style: none;
+  margin: 10px 0;
+  
+}
+.tab-contents ul li span{
+  color: rgb(34, 211, 238);
+  font-size: 25px;
+}
+
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
+}
+
+/* -------------- skills ------------------*/
+.skill-name {
+  max-width: 120px;
+  white-space: normal; /* allows the text to wrap */
+}
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: -15px;
+}
+
+.skills-column h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-column ul li {
+  font-size: 16px;
+  margin: 5px 0;
+
+}
+/*
+ * Copyright 2024 Samuel Sanchez. 
+ */
+.skills-column ul li span {
+  color: rgb(34, 211, 238);
+}
+
+.comfortability {
+  display: flex;
+  align-items: center;
+}
+/*
+ * Copyright 2024 Samuel Sanchez. 
+ */
+.comfortability li.skill-name{
+  margin-right: 10px;
+}
+
+.comfort-box{
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  background-color: #1E8449;
+  border-radius: 4px; 
+  border: 2px solid rgba(171, 171, 171, .3); /* Add a border with the same color as the background */
+}
+
+
+
+.comfort-box.not{
+  background-color: #00000000;
+}
+/*
+ * Copyright 2024 Samuel Sanchez. 
+ */
+
+/* -----------------css for small screens--------- */
+nav .fas{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+nav .fas{
+  display: block;
+  font-size: 25px;
+}
+nav ul{
+  background: #399eff;
+  position: fixed;
+  top: 0;
+  right: -100px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 50px;
+  z-index: 2;
+  transition: right 0.5s;
+}
+  nav ul li{
+      display: block;
+      margin: 25px;
+  }
+  nav ul .fas{
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      cursor: pointer;
+  }
+  .sub-title{
+      font-size: 40px;
+  }
+  .about-col-1, .about-col-2{
+      flex-basis: 100%;
+  }
+  .about-col-1{
+      margin-bottom: 30px;
+  }
+  .about-col-2{
+      font-size: 14px;
+  }
+  .tab-links{
+      font-size: 16px;
+      margin-right: 20px;
+  }
+  .projects-section {
+    padding-top: 20px !important; /* Ensuring override */
+    padding-bottom: 20px !important; /* Ensuring override */
+  }
+
+  .projects-section > div > div {
+    gap: 10px !important; /* Ensuring override */
+  }
+  
+  .projects-section h1 {
+    margin-bottom: 10px !important; /* Ensuring override */
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+  
+  .sub-title {
+    font-size: 40px;
+  }
+
+  .tab-links {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Adjust the number of columns */
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .projects-section {
+    padding-top: 40px !important; /* Ensuring override */
+    padding-bottom: 20px !important; /* Ensuring override */
+  }
+
+  .projects-section > div > div {
+    gap: 10px !important; /* Ensuring override */
+  }
+  
+  .projects-section h1 {
+    margin-bottom: 10px !important; /* Ensuring override */
+  }
+
+  .mobile-spacing-adjustments {
+    gap: 5px !important;
+    margin-bottom: 5px !important;
+    padding: 5px !important;
+  }
+
+    /* Adjust the image container's bottom margin to push it up */
+  .magic-image-container {
+    margin-bottom: 0 !important; /* Adjust value as needed */
+  }
+
+  /* Adjust the LinkedIn and GitHub button container's top margin to bring it closer */
+  .social-buttons-container {
+    margin-top: 0 !important; /* Adjust value as needed */
+  }
+  
+  /* Additional responsive styles can be added here */
+}

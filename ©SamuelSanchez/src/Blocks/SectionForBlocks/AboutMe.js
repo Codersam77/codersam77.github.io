@@ -206,7 +206,7 @@ const about = () => {
                   , enhancing its online presence, and ensuring faster loading time through collaborative efforts with an agile team of software developers and product managers leveraging React.
                 </span>
               }
-           Text2="• Ensuring a faster loading time using Gatsby.js and improved authentication using Django REST Framework and Firebase, effectively modernizing the school’s online presence and improving user engagement"
+           Text2="• Ensuring a faster loading time by over 25% using Gatsby.js and improved authentication using Django REST Framework and Firebase, effectively modernizing the school’s online presence and improving user engagement"
            Text3="• Applied Agile methodologies such as Scrum stand-ups and sprints, efficiently maneuvering through technical complexities, ensuring steady progress, and keeping adherence to project timelines"
            Text4="• Collaboratively engineering robust back-end systems for Amherst Ballet with a four-member development team, focusing on database management, server-side logic, and API integration. Actively contributing to a wide range of technology solutions for startups, small businesses, and nonprofits, demonstrating a strong proficiency in both front-end and back-end development"
            Text5="• Technologies used: HTML/CSS, TypeScript, Node, React, Gatsby.js, Django, Express, Firebase, Git, Github"           

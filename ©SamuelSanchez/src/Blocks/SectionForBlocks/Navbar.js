@@ -64,7 +64,7 @@ const Navbar = () => {
  * Copyright 2024 Samuel Sanchez. 
  */
   const onResumeClick = useCallback(() => {
-    window.open("https://publuu.com/flip-book/418859/946862/page/1");
+    window.open("https://publuu.com/flip-book/418859/958049");
   }, []);
 
   return (

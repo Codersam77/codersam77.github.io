@@ -61,7 +61,7 @@ const Projects = () => {
             Image="/trial.svg"
             Number="01:"
             Title="Personal Website"
-            ImageLink=""//edit
+            ImageLink="https://github.com/Codersam77/Codersam77.github.io"//edit
             Text1="My Website Portfolio is the perfect example of when preparation meets opportunity. Through my experiences as a developer, I have learned how to efficiently code, learn new technologies, and problem solve and I put these together to put together this beautiful website that stands out among the rest. I self-taught myself many of the technologies I needed to build it and used various skills, frameworks, and development tools like: TypeScript, HTML/CSS, Node, React, TailWind CSS, VS Code, Git, & Github."
           />
           <ProjectHelper

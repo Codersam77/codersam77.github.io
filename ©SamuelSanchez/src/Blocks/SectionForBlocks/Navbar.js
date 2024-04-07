@@ -2,9 +2,10 @@
  * Copyright 2024 Samuel Sanchez. 
  */
 
-import { useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect } from 'react';
 
-const Navbar = () => {
+export const Navbar = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -64,7 +65,7 @@ const Navbar = () => {
  * Copyright 2024 Samuel Sanchez. 
  */
   const onResumeClick = useCallback(() => {
-    window.open("https://publuu.com/flip-book/437687/987785");
+    window.open("https://drive.google.com/file/d/1v8BdZYZICFEn-bixPTGC6qrGabsf5hmN/view");
   }, []);
 
   return (

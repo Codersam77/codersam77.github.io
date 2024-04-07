@@ -194,7 +194,7 @@ const about = () => {
                   </a>
                 </span>
               }
-              Date="Jan 2023 - Present"
+              Date="Jan 2024 - Present"
               Text1={
                 <span>
                   • Collaborated on the full-stack development of{" "}
@@ -240,7 +240,7 @@ const about = () => {
             Text1={
                 <span>
                   • Founded Youth-Led Fitness Movement; 4 Team Members; Average of 100+ Paying Clients per month; Built An App & A Website With Team; Over 10,000 users; Over 15,000 Followers on Social Media;{' '}
-                  <a href="https://youtu.be/WOIQ5ycIMWARE" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/watch?v=TctdeYHKivI" target="_blank" rel="noopener noreferrer">
                      Video of What Our App Looked Like
                   </a>
                 </span>

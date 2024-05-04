@@ -84,9 +84,9 @@ const about = () => {
         introduction: "Born and raised in the greater Greater Boston Area, I have had the privilege of growing up in an environment at the forefront of the technological advancements that have revolutionized our world. Coming from a mother who had very few opportunities growing up, was a first-generation student, came here on an H-1B Visa, and is currently a software engineer, I have had the opportunity to gain inspiration from her journey of overcoming many obstacles as one of the few Latinx women in tech.",
         academicJourney: "Embracing my mother's legacy, I embarked on my own voyage into software engineering. My journey has been marked by a passion for innovation and solving problems as well as a commitment to diversity and cultural inclusivity, key pillars that have helped tremendously in my growth. In my high school years, at Xaverian Brothers High School, I began taking advanced computer science courses as well as tackling projects that got my hands wet with coding and Machine Learning. I also further developed my communication skills and abilities, serving as Class President all four years and Founding the Entrepreneurship Club.",
         collegeChallenges: "Transitioning to College, I have taken the most rigorous computer science classes my school offers, even taking a graduate-level statistics course, which relates heavily to work in Machine Learning (AI) in my sophomore year. In addition to this, I have gained experience in the industry of software engineering, creating projects (which you can see below) and leading innovation through different roles I have taken part in. Guided by my Afro-Hispanic roots, I have made it an effort to champion minority voices in technology, ensuring that the technology we create is accessible, equitable, and reflective of the diverse world we live in. Notably, I serve as the the National Society of Black Engineers Academic Excellence Chair, which has been a fulfilling avenue to enhance my leadership skills while contributing and affirming the importance of inclusive representation in STEM fields.",
-        employment:"I currently serve as a Full-Stack Software Engineer at BUILD UMass, an organization that focuses on creating solutions for startups, small businesses, and nonprofits. Last summer, I served as a Networking Engineering Intern for Sullivan and McLaughlin Companies, New England‘s largest single-source technologies contracting company.",        
-        personalLife: "When I am not programming, you can find me at the gym, at Chipotle munching on a Burrito, or hanging out with friends.",
-        careerAspirations: "I am currently seeking a Summer Internship in Software engineering for the Summer of 2024. I welcome any opportunity to work with others in the industry and think I would be a great addition to your team. If you want to work with me, please do not hesitate to reach out!"
+        employment:"For the Summer of 2024, I have been fortunate enough to receive several offers from some of the worl’d best companies (including various Fortune 500 firms), and I am beyond thrilled to have decided to join Honeywell, a fortune 100 company, and leader in the tech industry, as an incoming Software Engineering Intern! I currently serve as a Full-Stack Software Engineer at BUILD UMass, an organization that focuses on creating technological solutions for startups, small businesses, and nonprofits. Last summer, I served as a Networking Engineering Intern for Sullivan and McLaughlin Companies, New England‘s largest technologies contracting company.",        
+        personalLife: "When I am not programming, you can find me at the gym, at Chipotle munching on a Burrito, or hanging out with friends! I am also involved in leading service trips and leveraging my bilingual abilities to assist underprivileged communities with medical and dental care. For more details, feel free to check out my LinkedIn or get in touch with me directly!",
+        careerAspirations: "I am open to discussing Summer Internship opportunities in Software engineering for the Summer of 2025 or co-op opportunities throughout the year. I welcome any opportunity to work with others in the industry and think I would be a great addition to your team. If you want to work with me, please do not hesitate to reach out!"
       };
 
       const renderPersonalJourney = () => {
@@ -180,6 +180,40 @@ const about = () => {
             <div className="tab-contents active-tab" id="experience">
               <div className="experience-container">
                 <div className="experience-column">
+                 <ExperienceComponent
+            Title={
+                <span>
+                  Full-Time Connected Enterprise Advanced Software Engineer Intern @{" "}
+                  <a
+                    href="https://www.honeywell.com/us/en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: 'white', textDecoration: 'underline' }}
+                  >
+                    Honeywell (Summer 2024)
+                  </a>
+                </span>
+              }
+              Date="May 2024 - Aug 2024"
+           Text1="•Incoming 2024 Connected Enterprise Advanced Software Engineer Intern for Honeywell, a Fortune 100 Company that invents and manufactures technologies to address some of the world's toughest challenges linked to global macrotrends such as safety, security, and energy"         
+          />
+           <ExperienceComponent
+            Title={
+                <span>
+                  Engineering Accelerator Fellow @{" "}
+                  <a
+                    href="https://www.bloomberg.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: 'white', textDecoration: 'underline' }}
+                  >
+                    Bloomberg
+                  </a>
+                </span>
+              }
+              Date="May 2024 - Aug 2024"
+           Text1="Selected for exclusive 1:1 weekly coding mentorship with Bloomberg Engineers, advancing directly to technical rounds for Summer 2025"         
+          />
                 <ExperienceComponent
             Title={
                 <span>

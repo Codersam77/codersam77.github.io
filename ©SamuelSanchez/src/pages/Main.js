@@ -47,7 +47,9 @@ const Main = () => {
   return (
     <div className="relative bg-primary-white w-full overflow-hidden flex flex-col items-center justify-start tracking-[normal]">
     <Navbar />
+    <div className="w-full">
     <Magic />
+    </div>
     <About/>
     <Projects />
     <ContactForm />

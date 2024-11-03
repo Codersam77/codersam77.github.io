@@ -49,7 +49,8 @@ const Magic = () => {
         window.open("https://github.com/Codersam77");
       }, []);
     return (
-         <section className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[60px] px-[69px] box-border max-w-full text-left text-29xl text-primary-black font-heading-h6-semibold mq825:py-[39px] mq825:px-[34px] mq825:box-border">
+        <>
+         <section className="self-stretch overflow-hidden flex flex-row items-center justify-center pt-[60px] pb-[1px] px-[69px] box-border max-w-full text-left text-29xl text-primary-black font-heading-h6-semibold mq825:py-[39px] mq825:px-[34px] mq825:box-border">
         <div className="flex-1 overflow-hidden flex flex-row items-center justify-center py-0 px-[30px] box-border gap-[92px] max-w-full lg:flex-wrap mq825:gap-[46px] mq450:gap-[23px]">
           <div className="flex-1 overflow-hidden flex flex-col items-start justify-start py-5 px-0 box-border gap-[40px] min-w-[513px] min-h-[510px] max-w-full lg:min-h-[auto] mq825:min-w-full mq450:gap-[20px]">
             <div className="self-stretch flex flex-col items-center justify-center gap-[32px] max-w-full mq450:gap-[16px]">
@@ -138,7 +139,7 @@ const Magic = () => {
         style={{ width: '100%', height: 'auto' }}
         loading="eager"
         alt="Desktop version"
-        src="/headshot.svg"
+        src="/final.jpg"
         data-animate-on-scroll
     />
     <img
@@ -146,12 +147,25 @@ const Magic = () => {
         style={{ width: '100%', height: 'auto' }}
         loading="eager"
         alt="Mobile version"
-        src="/headshot.jpg"
+        src="/final.jpg"
         data-animate-on-scroll
     />
 </div>
-        </div>
+    </div>
+    </section>
+     <div className="w-full">
+      <section className="flex flex-col items-start justify-center px-[98.5px] gap-0">
+      <p className="text-sm text-black m-0 mb-0 leading-none">Experiences From:</p>
+      <div className="flex flex-row flex-wrap space-x-3 max-md:mx-auto">
+        <img alt ="Honeywell" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/Honeywell_logo.svg.png"/>
+        <img alt="Bloomberg" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/bloomberg-logo-transparent.png"/>
+        <img alt="Sullivan and McLaughlin Companies" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/sullivanandmclaughlinlogotrasnparent.png"/>
+        <img alt="Manning College of Information and Computer Sciences" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="cics_logo.jpg"/>
+      </div>
       </section>
+    </div>
+
+  </>
     )};
 
 export default Magic;

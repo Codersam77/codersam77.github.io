@@ -133,7 +133,7 @@ const Magic = () => {
     </button>
 </div>
           </div>
-          <div className="bg-primary-white w-[377px] h-[510px] overflow-hidden shrink-0 flex flex-col items-center justify-center min-w-[377px] max-w-full lg:flex-1 mq825:min-w-full magic-image-container">
+          <div className="bg-primary-white w-full max-w-[377px] overflow-hidden shrink-0 flex flex-col items-center justify-center lg:flex-1 mq825:w-full mq825:min-w-0 magic-image-container p-0">
     <img
         className="hidden mq825:block relative overflow-hidden object-contain [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-bottom] opacity-[0] lg:w-auto"
         style={{ width: '100%', height: 'auto' }}
@@ -153,17 +153,43 @@ const Magic = () => {
 </div>
     </div>
     </section>
-     <div className="w-full">
-      <section className="flex flex-col items-start justify-center px-[98.5px] gap-0">
-      <p className="text-sm text-black text-bold m-0 mb-0 leading-none">Experiences From:</p>
-      <div className="flex flex-row flex-wrap space-x-10 max-md:mx-auto">
-        <img alt ="Honeywell" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/Honeywell_logo.svg.png"/>
-        <img alt="Bloomberg" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/bloomberg-logo-transparent.png"/>
-        <img alt="Sullivan and McLaughlin Companies" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/sullivanandmclaughlinlogotrasnparent.png"/>
-        <img alt="Manning College of Information and Computer Sciences" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="cics_logo.jpg"/>
-      </div>
-      </section>
-    </div>
+    <div className="w-full">
+    <section className="flex flex-col items-start justify-center px-[98.5px] gap-0 mq825:items-center mq825:px-4">
+  <p className="text-[16px] text-primary-black mq825:pb-6 mq450:pb-6 font-semibold m-0 mb-0 leading-none mq825:text-center">
+    Experiences From:
+  </p>
+  <div className="flex flex-row flex-wrap space-x-10 mq825:flex-col mq825:items-start mq825:space-y-4 mq825:pb-4 mq825:space-x-0">
+    <img
+      alt="Honeywell"
+      loading="lazy"
+      decoding="async"
+      className="w-28 object-contain m-0 mq825:w-24"
+      src="/Honeywell_logo.svg.png"
+    />
+    <img
+      alt="Bloomberg"
+      loading="lazy"
+      decoding="async"
+      className="w-28 object-contain m-0 mq825:w-24"
+      src="/bloomberg-logo-transparent.png"
+    />
+    <img
+      alt="Sullivan and McLaughlin Companies"
+      loading="lazy"
+      decoding="async"
+      className="w-28 object-contain m-0 mq825:w-24"
+      src="/sullivanandmclaughlinlogotrasnparent.png"
+    />
+    <img
+      alt="Manning College of Information and Computer Sciences"
+      loading="lazy"
+      decoding="async"
+      className="w-28 object-contain m-0 mq825:w-24"
+      src="cics_logo.jpg"
+    />
+  </div>
+</section>
+</div>
 
   </>
     )};

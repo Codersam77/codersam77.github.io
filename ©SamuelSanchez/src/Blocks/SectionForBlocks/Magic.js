@@ -155,8 +155,8 @@ const Magic = () => {
     </section>
      <div className="w-full">
       <section className="flex flex-col items-start justify-center px-[98.5px] gap-0">
-      <p className="text-sm text-black m-0 mb-0 leading-none">Experiences From:</p>
-      <div className="flex flex-row flex-wrap space-x-3 max-md:mx-auto">
+      <p className="text-sm text-black text-bold m-0 mb-0 leading-none">Experiences From:</p>
+      <div className="flex flex-row flex-wrap space-x-10 max-md:mx-auto">
         <img alt ="Honeywell" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/Honeywell_logo.svg.png"/>
         <img alt="Bloomberg" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/bloomberg-logo-transparent.png"/>
         <img alt="Sullivan and McLaughlin Companies" loading="lazy" decoding="async" className="w-28 object-contain m-0" src="/sullivanandmclaughlinlogotrasnparent.png"/>

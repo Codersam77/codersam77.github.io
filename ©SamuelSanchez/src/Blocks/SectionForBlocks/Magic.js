@@ -95,7 +95,7 @@ const Magic = () => {
                 >
                   <h1 className="m-0 relative text-inherit tracking-[-0.02em] leading-[56px] font-inherit mq825:text-19xl mq825:leading-[45px] mq450:text-10xl mq450:leading-[34px]">
                     <span>{`UMass `}</span>
-                    <b>Amherst CS</b>
+                    <b>Amherst CS + MATH</b>
                   </h1>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Magic = () => {
                 className="self-stretch relative text-base tracking-[0.02em] leading-[24px] text-zinc-500 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-top] opacity-[0]"
                 data-animate-on-scroll
               >
-                <p className="m-0 mb-4">{`Welcome to my website! I'm a highly motivated Computer Science and Mathematics Double Major at the University of Massachusetts Amherst (3.74 GPA). I am dedicated to formulating the best possible technological solutions, crafting efficient code, and using technology as a catalyst for real-world change.`}</p>
+                <p className="m-0 mb-4">{`Welcome to my website! I'm a highly motivated Computer Science and Mathematics (Computing Concentration) Double Major at the University of Massachusetts Amherst (3.74 GPA). I am dedicated to formulating the best possible technological solutions, crafting efficient code, and using technology as a catalyst for real-world change.`}</p>
                 <p className="m-0">
                   I'm constantly seeking to broaden my technical skills and eager to apply what I've learned in settings that are at the forefront of technological progress. My strong academic background and continuous learning approach allows me to quickly pickup skills and be a dynamic leader in fast paced environments. Please explore my resume, projects, and skills and envision the potential of what we can achieve together...
                   </p>

@@ -42,62 +42,67 @@ const about = () => {
     };
     const skills = {
         tools: [
+          { name: 'Storybook', level: 3 },
+          { name: 'GithubPages', level: 3 },
+          { name: 'Jupyter N.', level: 3 },
+          { name: 'FireBase', level: 3 },
+          { name: 'Figma', level: 3 },
+          { name: 'Linux', level: 3 },
+          { name: 'Unix', level: 3 },
+          { name: 'Bamboo', level: 3 },
           { name: 'Git', level: 3 },
           { name: 'Github', level: 3 },
           { name: 'VS Code', level: 3 },
-          { name: 'PyCharm', level: 3 },
-          { name: 'Eclipse', level: 3 },
-          { name: 'FireBase', level: 3 },
-          { name: 'Figma', level: 3 },
           { name: 'Docker', level: 2 },
-          { name: 'Jira', level: 1 },
+          { name: 'React.T.L.', level: 2 },
         ],
         programming: [          
           { name: 'Java', level: 3 },
           { name: 'Python', level: 3 },
           { name: 'JavaScript', level: 3 },
           { name: 'TypeScript', level: 3 },
-          { name: 'Arduino', level: 3 },
-          { name: 'P', level: 2 },
-          { name: 'HTML', level: 2 },
-          { name: 'CSS', level: 2 },
+          { name: 'HTML', level: 3 },
+          { name: 'CSS', level: 3 },
+          { name: 'C', level: 3 },
+          { name: 'C#', level: 2 },
           { name: 'C++', level: 2 },
-          { name: 'C', level: 2 },
+          { name: 'Arduino', level: 2 },
           { name: 'SQL', level: 2 }
         ],
-        Frameworks: [            
-            { name: 'Flask', level: 3 },
-            { name: 'Django', level: 3 },
-            { name: 'Firebase', level: 3 },
-            { name: 'Express.js', level: 3 },
-            { name: 'Selenium', level: 3 },
-            { name: 'Pandas', level: 3 },
+        Frameworks: [       
+            { name: 'React', level: 3 },    
+            { name: 'Node.js', level: 3 }, 
             { name: 'MongoDB', level: 3 },
-            { name: 'React', level: 3 },
-            { name: 'Node.js', level: 3 },
+            { name: 'Pandas', level: 3 },
             { name: 'Tailwind CSS', level: 3 },
+            { name: 'Firebase', level: 3 },
+            { name: 'Django', level: 3 },
+            { name: 'Flask', level: 3 },
+            { name: 'Express.js', level: 2 },
             { name: 'SciKit-learn', level: 2 }
         ]
       };
 
     const journey = {
-        introduction: "Born and raised in the greater Greater Boston Area, I have had the privilege of growing up in an environment at the forefront of the technological advancements that have revolutionized our world. Coming from a mother who had very few opportunities growing up, was a first-generation student, came here on an H-1B Visa, and is currently a software engineer, I have had the opportunity to gain inspiration from her journey of overcoming many obstacles as one of the few Latinx women in tech.",
-        academicJourney: "Embracing my mother's legacy, I embarked on my own voyage into software engineering. My journey has been marked by a passion for innovation and solving problems as well as a commitment to diversity and cultural inclusivity, key pillars that have helped tremendously in my growth. In my high school years, at Xaverian Brothers High School, I began taking advanced computer science courses as well as tackling projects that got my hands wet with coding and Machine Learning. I also further developed my communication skills and abilities, serving as Class President all four years and Founding the Entrepreneurship Club.",
-        collegeChallenges: "Transitioning to College, I have taken the most rigorous computer science classes my school offers, even taking a graduate-level statistics course, which relates heavily to work in Machine Learning (AI) in my sophomore year. In addition to this, I have gained experience in the industry of software engineering, creating projects (which you can see below) and leading innovation through different roles I have taken part in. Guided by my Afro-Hispanic roots, I have made it an effort to champion minority voices in technology, ensuring that the technology we create is accessible, equitable, and reflective of the diverse world we live in. Notably, I serve as the the National Society of Black Engineers Academic Excellence Chair, which has been a fulfilling avenue to enhance my leadership skills while contributing and affirming the importance of inclusive representation in STEM fields.",
-        employment:"For the Summer of 2024, I have been fortunate enough to receive several offers from some of the worl’d best companies (including various Fortune 500 firms), and I am beyond thrilled to have decided to join Honeywell, a fortune 100 company, and leader in the tech industry, as an incoming Software Engineering Intern! I currently serve as a Full-Stack Software Engineer at BUILD UMass, an organization that focuses on creating technological solutions for startups, small businesses, and nonprofits. Last summer, I served as a Networking Engineering Intern for Sullivan and McLaughlin Companies, New England‘s largest technologies contracting company.",        
-        personalLife: "When I am not programming, you can find me at the gym, at Chipotle munching on a Burrito, or hanging out with friends! I am also involved in leading service trips and leveraging my bilingual abilities to assist underprivileged communities with medical and dental care. For more details, feel free to check out my LinkedIn or get in touch with me directly!",
-        careerAspirations: "I am open to discussing Summer Internship opportunities in Software engineering for the Summer of 2025 or co-op opportunities throughout the year. I welcome any opportunity to work with others in the industry and think I would be a great addition to your team. If you want to work with me, please do not hesitate to reach out!"
+        introduction: "Born and raised in the greater Greater Boston Area, I have had the privilege of growing up in an environment at the forefront of the technological advancements that have revolutionized our world. Coming from a mother who had very few opportunities growing up, was a first-generation student, came here on an H-1B Visa, and is currently a software engineer, I have had the opportunity to gain inspiration from her journey of overcoming many obstacles as one of the few Latino women in tech.",
+        academicJourney: "Embracing my mother's legacy, I embarked on my own voyage into software engineering. My journey has been marked by a passion for innovation and solving problems as well as a commitment to diversity and cultural inclusivity, key pillars that have helped tremendously in my growth. In my high school years, at Xaverian Brothers High School, one of MA’s highest ranked exam schools, I began taking advanced computer science courses as well as tackling projects that got my hands wet with coding and Machine Learning. I also further developed my communication skills and abilities, serving as Class President all four years and Founding the Entrepreneurship Club.",
+        collegeChallenges: "Transitioning to College, I have taken the most rigorous computer science classes my school offers, even taking a graduate-level statistics course, which relates heavily to work in Machine Learning (AI) in my sophomore year. In addition to this, I have gained experience in the industry of software engineering, creating projects (which you can see below) and leading innovation through different roles I have taken part in. Guided by my Afro-Hispanic roots, I have made it an effort to champion minority voices in technology, ensuring that the technology we create is accessible, equitable, and reflective of the diverse world we live in. Notably, I serve as the National Society of Black Engineers Academic Excellence Chair, which has been a fulfilling avenue to enhance my leadership skills while contributing and affirming the importance of inclusive representation in STEM fields.",
+        employment2024:"In the Summer of 2024, my sophomore year, I was fortunate enough to receive several offers from some of the world's best companies. I accepted an offer from Honeywell in their Software HQ in Atlanta Georgia where I collaborated with a team of highly advanced engineers and grew in my skills! It was an incredible summer where I over-excelled in my role, receiving a return offer from my manager who was incredibly pleased with my work!", 
+        schoolyear:"During the school-year I serve as a Full-Stack Software Engineer at BUILD UMass, an organization that focuses on creating technological solutions for startups, small businesses, and nonprofits. In my freshman year, I served as a Networking Engineering Intern for Sullivan and McLaughlin Companies, New England‘s largest technology contracting company.",           
+        personalLife: "When I’m not programming, you can find me at the gym, enjoying a burrito at Chipotle, or immersed in a book. I’m deeply inspired by visionaries like Steve Jobs and Steve Wozniak, who believed that engineering could propel society forward. Like them, I believe that those who are bold enough to think they can change the world are often the ones who do—and I'd consider myself one of those individuals.",
+        careerAspirations: "I am open to discussing Summer Internship opportunities in Software engineering for the Summer of 2025 or Winter 2024-2025. I welcome the chance to collaborate with professionals across the industry and am confident in the meaningful contributions I can bring to any team. If you're interested in working together, please feel free to reach out—my contact information is available at the bottom of the page!"
       };
 
       const renderPersonalJourney = () => {
-        const { introduction, academicJourney, collegeChallenges, employment, personalLife, careerAspirations } = journey;
+        const { introduction, academicJourney, collegeChallenges, employment2024, schoolyear, personalLife, careerAspirations } = journey;
 
   return (
     <div>
       <p>{introduction}</p>       
       <p>{academicJourney}</p>
       <p>{collegeChallenges}</p>
-      <p>{employment}</p>
+      <p>{employment2024}</p>
+      <p>{schoolyear}</p>
                 <p>{personalLife}</p>
                 <p>{careerAspirations}</p>
             </div>
@@ -183,7 +188,7 @@ const about = () => {
                  <ExperienceComponent
             Title={
                 <span>
-                  Full-Time Connected Enterprise Advanced Software Engineer Intern @{" "}
+                  Full-Time Advanced Software Engineer Intern @{" "}
                   <a
                     href="https://www.honeywell.com/us/en"
                     target="_blank"
@@ -195,12 +200,17 @@ const about = () => {
                 </span>
               }
               Date="May 2024 - Aug 2024"
-           Text1="•Incoming 2024 Connected Enterprise Advanced Software Engineer Intern for Honeywell, a Fortune 100 Company that invents and manufactures technologies to address some of the world's toughest challenges linked to global macrotrends such as safety, security, and energy"         
+           Text1="• Optimized Honeywell’s Connected Workforce Competency Dashboard, utilized by industry leaders such as ExxonMobil and
+Shell, by migrating on-premise .Net solutions to Microsoft Azure"
+           Text2="• Modernized the platform by developing a custom wrapper around their existing component library, enhancing features and adding new components using TypeScript, JSX, React, Storybook, leading to improved user experience and system performance."
+           Text3="• Implemented dynamic programming techniques to streamline data handling and management, significantly boosting overall system efficiency and reliability"
+           Text4="• Technologies used: TypeScript, JavaScript, JSX, HTML/CSS, TailwindCSS, React, Storybook, React Testing Library,
+Microsoft Azure, Git, Github, Bamboo(CI/CD), Figma, SonarQube"
           />
            <ExperienceComponent
             Title={
                 <span>
-                  Engineering Accelerator Fellow @{" "}
+                  Bloomberg L.P. Engineering Accelerator Fellow @{" "}
                   <a
                     href="https://www.bloomberg.com/"
                     target="_blank"
@@ -211,8 +221,8 @@ const about = () => {
                   </a>
                 </span>
               }
-              Date="May 2024 - Aug 2024"
-           Text1="Selected for exclusive 1:1 weekly coding mentorship with Bloomberg Engineers, advancing directly to technical rounds for Summer 2025"         
+              Date="May 2024 - Sep 2024"
+           Text1="• Took part in exclusive 1:1 weekly Advanced SWE mentorship with Bloomberg Engineers, advancing directly to technical rounds for 2025"         
           />
                 <ExperienceComponent
             Title={
@@ -240,7 +250,7 @@ const about = () => {
                   >
                     Amherst Ballet’s Website
                   </a>
-                  , enhancing its online presence, and ensuring faster loading time through collaborative efforts with an agile team of software developers and product managers leveraging React.
+                  , enhancing its online presence, and ensuring faster loading time through collaborative efforts with an agile team of software developers and product managers leveraging React
                 </span>
               }
            Text2="• Ensuring a faster loading time by over 25% using Gatsby.js and improved authentication using Django REST Framework and Firebase, effectively modernizing the school’s online presence and improving user engagement"
@@ -266,7 +276,6 @@ const about = () => {
             Text1="• Collaborated closely with the technology department's Network Engineering team to assist in configuring and deploying 5G CradlePoint technology to over 1,000+ locations across 40+ states"
             Text2="• Expertly managed network configuration and protocol settings for 5G CradlePoint deployments, ensuring robust and secure communication across all networks. Played a pivotal role in standardizing network protocols and configurations, which enhanced system interoperability and security across multi-state installations"
             Text3="• Remotely diagnosed and resolved 150+ intricate technical issues with 5G Cradle Points, swiftly pinpointing and addressing problems to guarantee uninterrupted and optimal network performance"
-            Text4="• Technologies used: Cisco Firepower, IBM QRadar, 5G Technology, Cradlepoint NetCloud Manager, Nagios"
           />
           <ExperienceComponent
             Title="Founder @ Young & Yoked (Successful Start-up)"

@@ -65,7 +65,7 @@ export const Navbar = () => {
  * Copyright 2024 Samuel Sanchez. 
  */
   const onResumeClick = useCallback(() => {
-    window.open("https://drive.google.com/file/d/1betPjcc_3Xw6GCAORVk9ByqySnLYhSpx/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1uxasmggykOBTa6I4S6tdFlLRMyX6UuTJ/view?usp=sharing");
   }, []);
 
   return (
